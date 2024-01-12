@@ -6,7 +6,7 @@ export default function Gallery() {
   const [showMore, setShowMore] = useState(false);
   const hasNext = index < sculptureList.length - 1;
   const hasLast = index > 0
-  function handleLast() {
+  function handlePrev() {
     if (hasLast) {
       setIndex(index - 1)
     } else {
@@ -29,7 +29,7 @@ export default function Gallery() {
 
   return (
     <div>
-      <button onClick={handleLast}>Last</button>
+      <button onClick={handlePrev}>Last</button>
       <button onClick={handleNext}>Next</button>
       <h2>
         <i>{sculpture.name}</i>
