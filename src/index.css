@@ -46,23 +46,24 @@ ul {
   padding-inline-start: 20px;
 }
 
-.card {
-  width: fit-content;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #aaa;
-  border-radius: 20px;
-  background: #fff;
+label {
+  display: block;
+  clear: both;
 }
-.card-content {
+.fancy {
+  border: 5px solid gold;
+  color: #ff6767;
+}
+.counter {
+  width: 100px;
   text-align: center;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 20px 20px 0;
+  float: left;
 }
-.avatar {
-  margin: 10px;
-  border-radius: 50%;
-}
-h1 {
-  margin: 5px;
-  padding: 0;
-  font-size: 24px;
+
+.hover {
+  background: #ffffd8;
 }
